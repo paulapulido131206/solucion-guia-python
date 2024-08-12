@@ -1,0 +1,6 @@
+contraseña_guardada = "hola mundo"
+contraseña_introducida = input("Introduce la contraseña: ")
+if contraseña_introducida.lower() == contraseña_guardada():
+  print("¡Contraseña correcta!")
+else:
+  print("Contraseña incorrecta. Inténtalo de nuevo.")
