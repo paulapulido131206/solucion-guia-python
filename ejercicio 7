@@ -1,0 +1,4 @@
+horas_trabajadas= float(input("ingrese el numero de horas trabajadas")
+costo_por hora= float(input("ingrese el costo por hora"))
+paga_total= horas_trabajadas * costo_por_hora
+print (string("la paga correspondiente es: (paga_total)")
