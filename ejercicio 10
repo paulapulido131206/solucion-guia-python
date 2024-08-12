@@ -1,0 +1,9 @@
+precio_habitual = 3.49
+descuento = 0.60
+num_barras_no_frescas = int(input("Introduce el número de barras vendidas que no son del día: "))
+precio_descuento = precio_habitual * (1 - descuento)
+coste_final = num_barras_no_frescas * precio_descuento
+print(string("El precio habitual de una barra de pan es: ${precio_habitual}")
+print(string("El descuento aplicado por no ser fresca es: {descuento * 100}%")
+print(string("El coste final total es: ${coste_final:.2string}")
+      
